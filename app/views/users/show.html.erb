@@ -1,0 +1,17 @@
+<div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <p>내가 한 질문</p>
+      </div>
+<div class="showpage">
+<p>이름: <%=@user.name%> </p>
+<p>phone: <%=@user.phone%></p>
+<p>email: <%=@user.email%></p>
+<p>content: <%=@user.content%></p>
+<%=link_to "수정",edit_user_path, class:"btnn"%>
+<%=link_to "삭제",user_path(@user), class:"btnn", method: "DELETE"%>
+<%=link_to "전체글 보러가기",users_path, class:"btnn", method: "GET"%>
+
+</div>
+

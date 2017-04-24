@@ -1,0 +1,319 @@
+<body data-spy="scroll" data-target=".navbar">
+
+
+   <div id="master-wrap">
+
+<!-- Fixed navbar -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#">SEUNG HA</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href=#About>About</a></li>
+            <li><a class="page-scroll" href=#Interests>Interests</a></li>
+            <li><a class="page-scroll" href=#Skills>Skills</a></li>
+            <li><a class="page-scroll" href=#Favorites>Favorites</a></li>
+            <li><a class="page-scroll" href=#Contact>Contact</a></li>
+            <li><a class="page-scroll" href="question">Q&A</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+
+	
+
+	<div class="top">
+    
+    	<div class="container" id="#">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      	<div class="jumbotron">
+        	<center>
+        	<hr>
+        	<h1>KIM SEUNG HA</h1>
+        	<hr>
+        	<p>-Real estate - Computer Science - Like Lion - </p>
+           <p><a class="btn btn-lg btn-success" role="button" data-toggle="modal" data-target="#myModal">More Detail</a></p>
+
+        <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          
+        <div class="modal-content">
+         <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" align="left">ABOUT SEUNGHA</h4>
+              </div>
+              <div class="modal-body">
+              <p><%=@HTMLName%></p>
+              <p><%=@HTMLAge%></p>
+              <p><%=@HTMLMajor%></p>
+              <p><%=@HTMLEducation%></p>
+              <p><%=@HTMLAddress%></p>
+              <p><%=@HTMLPhone%></p>
+              <p><%=@HTMLEmail%></p>
+              
+              
+              </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+        </div>    
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	</center>
+      	</div>
+
+    	</div> <!-- /container -->	      
+    </div><!--top-->
+
+
+	<Section class="About">
+		<div class="container" id="About">
+      <!-- Example row of columns -->
+				<div class="row">
+      				<div class="col-md-12 text-center">
+      					<h2 class="sectiontitle">About</h2>
+      				</div>
+      			</div>
+ 
+      	<div class="row">
+        	<div class="col-md-3"></div>
+			<div class="col-md-3">
+          		<img src="/assets/profile.jpg" class="img-circle" alt="clinque Terre" width="250" height="250">
+          		<!--<%=image_tag "profile.jpg", class: "img-rounded1" %>-->
+
+        	</div>
+        	<div class="col-md-6">
+          				<ul>
+    			  		<li class="name"><p class="aboutlist">Name: 김승하</p></li>
+    			  		<li class="age"><p class="aboutlist">Birth: 1995.3.13</p> </li>
+    			  		<li class="education"><p class="aboutlist">Education: 건국대학교</p></li>
+    			  		<li class="major"><p class="aboutlist">Major: 부동산학과 (컴퓨터공학 복수전공)</p></li>
+    			  		<li class="address"><p class="aboutlist">Address: 서울 송파구 양산로 8길 24, 207-1201</p></li>
+    			  		<li class="description"><p class="aboutlist">Description:<p class="des">"안녕하세요 건국대학교 부동산학과를 전공하고 있는 김승하입니다.</p>
+    			  		<p class="des">컴퓨터에 관심이 생겨서 멋쟁이 사자처럼에 지원하여 요번에 5기로 활동하게 되었습니다.</p>
+    			  	    <p class="des">아직 모르는 것이 너무 많지만 열심히 해서 많이 배워가고 싶습니다."</p></p></li>
+    			  		</ul>
+       		</div>
+       </div>
+
+     </section>
+	
+    <section class="Interests" id="Interests">
+    
+    	<div class="conatiner">
+				<div class="row">
+      				<div class="col-md-12 text-center">
+      					<h2 class="sectiontitle">Interests</h2>
+      				</div>
+      			</div>
+    <center>
+    <div class="container">
+      <!-- Example row of columns -->
+      
+      <div class="row">
+        <div class="col-md-4">
+        <img src="/assets/home.jpg" class="img-realestate" width=350px height=200px>
+          <h2><p class="interestTitle">Real Estate</p></h2>
+          <p class=interestText>부동산에는 금융, 경제, 개발, 법 등 여러 분야가 있고 다양한 분야로 진출할 수 있습니다. 부동산을 전공하면서 이런 다양한 분야를 알게되고 관심을 많이 가졌습니다. 올해 공인중개사 2차를 목표로 하고 있고 전공공부와 스터디, 다양한 활동을 통해서 부동산과 관련하여 더욱 더 많은 지식을 쌓고 안목을 기르고 싶습니다.   </p>
+        </div>
+        <div class="col-md-4">
+        <img src="/assets/computer.jpg" class="img-computer" width=350px height=200px> 
+          <h2><p class="interestTitle">Computer</p></h2>
+          <p class="interestText"> 컴퓨터에 관심이 많아져서 요번에 멋쟁이 사자처럼에 지원해서 활동을 하고 있습니다. 처음 해보는 것이라 어렵고 공부가 많이 필요해 더욱 열심히 해야 될 것 같습니다. 아직 html/css 밖에 배우지 못했지만 앞으로 멋쟁이 사자처럼을 통해서 ruby를 배우고 이 외에도 python, Javascript 등 다른 언어들도 배워보고 싶습니다.   </p>
+       </div>
+        <div class="col-md-4">
+        <img src="/assets/coin.jpg" class="img-economy" width=350px height=200px>
+          <h2><p class="interestTitle">Economy</p></h2>
+          <p class="interestText">세계가 현재 어떠한 방향으로 흘러가는지 알기 위해서는 세계 경제를 파악해야 합니다.
+           작년 경제 신문 스터디를 하면서 이에 관심을 가져왔고, 올해 금융 사관학교에서 국제 경제 전문가 과정을 이수했습니다. 앞으로 신문 스크랩과 책, 영상들을 통하여 꾸준히 관심을 가질 예정입니다.  </p>
+        </div>
+      </div>
+     </div>
+     </center>
+    
+
+
+    	</div>
+    </section>
+
+    <section class="Skills" id="Skills">
+    
+    	<div class="conatiner">
+				<div class="row">
+      				<div class="col-md-12 text-center">
+      					<h2 class="sectiontitle">Skills</h2>
+      				</div>
+      			</div>
+         
+
+
+
+        		<div class="row">
+					<div class="col-md-1"></div>
+        			<div class="col-md-2">
+        			<img src="https://static.fsf.org/nosvn/images/photoshop_illustrator.png" width=100px height=80px align="right" top-margin="100px"  class="simg"></div>
+        			<div class="col-md-3">
+        				<h4 class="skillsname">Design</h4>
+        				<p class="skilltext"> Photohsop:중</p>
+        				<p class="skilltext"> Illustrator:중</p>
+        				<p class="skilltext"> : 포토샵과 일러스트레이터를 이용하여 간단한 포스터 만들기 수준</p>
+        			
+        			</div>
+        			<div class="col-md-2">
+        				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Microsoft_Office_2013_logo_and_wordmark.svg/1000px-Microsoft_Office_2013_logo_and_wordmark.svg.png" width=120px height=70px align="right" class="simg"}>
+        			</div>
+        			<div class="col-md-3">
+        			<h4 class="skillsname">Micro office</h4>
+        			<p class="skilltext">Power point:상</p>
+        			<p class="skilltext">Word:상</p>
+        			<p class="skilltext">Excel:중</p>
+        			</div>
+					<div class="col-md-1"></div>
+
+				</div>      	
+        
+    		 <!-- /container -->
+
+        		<div class="row">
+					<div class="col-md-1"></div>
+        			<div class="col-md-2">
+        			<img src="http://www.mortgagesbycandice.ca/wp-content/uploads/2013/02/house-mortgage.png" width=120px height=60x align="right" class="simg"></div>
+        			<div class="col-md-3">
+        	
+        				<h4 class="skillsname">Real Estate</h4>
+        				<p class="skilltext"> 공인중개사 1차</p>
+        				<p class="skilltext"> 투자자산운용사</p>
+        				<p class="skilltext"> : 부동산 관련 용어와 법을 파악하고 개발 흐름을 읽을 수 있음 </p>
+        			
+        			
+        			</div>
+        			<div class="col-md-2">
+        				<img src="http://www.talentgrip.com/images/soft2.png" width=120px height=80px align="right" class="simg"}>
+        			</div>
+        			<div class="col-md-3">
+        				<h4 class="skillsname">Computer language</h4>
+        				<p class="skilltext"> html/css</p>
+        				<p class="skilltext"> Ruby(예정)</p>
+        				<p class="skilltext"> Java script(예정) </p>
+        				<p class="skilltext"> Jquery(예정)</p>
+        			</div>
+					<div class="col-md-1"></div>
+
+				</div>      	
+        
+    		</div> <!-- /container -->
+    	</div>
+         
+    </section> 
+
+    <section class="Favorites" id="Favorites">
+
+    	<div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+				<div class="row">
+      				<div class="col-md-12 text-center">
+      					<h2 class="sectiontitle">Favorites</h2>
+      				</div>
+      			</div>
+
+      <div class="row">
+     <center>
+      	<div class="col-md-1"></div>
+        <div class="col-md-2">
+          <i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i>
+         	<h4><p class="favorite">Photo</p></h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-2">
+          <i class="fa fa-plane fa-5x" aria-hidden="true"></i>
+          	<h4><p class="favorite">Travel</p></h4>
+        </div>
+        <div class="col-md-2">
+          <i class="fa fa-coffee fa-5x" aria-hidden="true"></i>
+          	<h4><p class="favorite">Cafe</p></h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-2">
+          <i class="fa fa-television fa-5x" aria-hidden="true"></i>
+          	<h4><p class="favorite">Drama</p></h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-2">
+        <i class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
+        	<h4><p class="favorite">food</p></h4>
+        </div>
+        <div class="col-md-1"></div>
+	</center>
+      
+
+    </section>
+
+
+
+
+  
+
+    <section class="Contact" id="Contact">
+    	<div class="conatiner">
+    		
+    		<div class="row">
+      			<div class="col-md-12 text-center">
+      				<h2 class="sectiontitle2">Contact</h2>
+      			</div>
+      		</div>
+    	</div>
+    	<center>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4">
+
+    					<%=image_tag "call.png", class: "img-rounded1" %>
+    			
+    				<h3 class="contactli">phone</h3>
+    				<p class="phone">010-5392-8848</p>
+    			</div>
+    			<div class="col-md-4">
+    				<a href="https://www.facebook.com/ddunghaa"><img src="http://traksme.com/wp-content/uploads/2013/06/facebook.png.png" height=60px width=60px></a>
+    				<h3 class="contactli">facebook</h3>
+    				<p>https://www.facebook.com/ddunghaa</p>
+    			</div>
+    			<div class="col-md-4">
+    				<img src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png" height=70px width=70px></div>
+    				<h3 class="contactli">E-mail</h3>
+    				<p class="email">ksha313@gmail.com</p></div>
+    			</div>
+    		</div>
+    	</div>
+    	</center>   	    		 		
+    </section>   
+    
+    
+
+    
+
+</body>
+

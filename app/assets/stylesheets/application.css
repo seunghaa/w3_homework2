@@ -1,0 +1,156 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ #mainNav {  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Jeju Gothic', serif;
+}
+
+.aboutlist, .interestTitle, .interestText, .skillsname, .skilltext, .favorite, .modal-body, .modal-title{
+  font-family:'Jeju Gothic', serif;
+}
+.modal-title, .modal-body {color:black;}/* main*/
+.top{background: url("/assets/MAIN.jpg") no-repeat center 0;
+	 background-size: cover;
+	 background-color: #394A5F;
+     color: #FFFFFF; 
+     padding: 400px 0 40px;
+    margin-bottom: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+.top .container .jumbotron {background-color:transparent;
+						   }
+
+.top .container .jumbotron h1{font-size:40px;
+							  font-family: 'Noto Sans KR', sans-serif;
+							}
+.top .container .jumbotron p{font-size:15px;
+							 font-family:'Nanum Gothic', serif;}
+.top .container .jumbotron hr{width:400px;
+							 text-align:center;}
+
+.sectiontitle {font-size:30px;
+			   font-weight:bold;
+			   text-align:center;
+			   font-family: 'Noto Sans KR', sans-serif;
+			   color:rgb(64,64,64);
+			   margin-bottom: 70px;
+			   margin-top:40px;
+			   }
+.sectiontitle2 {font-size:30px;
+			   font-weight:bold;
+			   text-align:white;
+			   margin-bottom: 70px;
+			   margin-top:40px;}
+.aboutlist {
+			margin-top:100px
+			margin-bottom:5px;
+			font-size:15px;}
+.des{font-family:'Nanum Pen Script', serif;
+			 font-size:20px;
+			 color:rgb(217, 217, 217);
+			 }
+
+			   font-size:20px;
+			   text-align:center;
+			   margin-left:10px;
+			   margin-top:30px;}
+.interestText {
+			   text-align:left;
+			   margin-left:12px;
+			   margin-right:5px;
+			   font-size:15px;
+			   line-height:1.7;
+			   font-weight:normal 100;
+
+			  }
+
+.skillsname {
+			text-align:left;
+			font-weight:bold;
+			color:rgb(89,89,89);
+			margin-top:30px;
+			margin-bottom:10px;
+			font-size:20px;}
+.skilltext {
+			margin-top:0px;
+			margin-bottom:0px;
+			font-size:14px;
+			color:rgb(127,127,127);}
+.simg {margin-top:40px;}
+
+.favorite {text-align:center;
+			margin-top:30px;
+			color:rgb(89,89,89);}
+
+.Contact{background: url('/assets/city.png') no-repeat center 0;
+		background-size:auto;
+	 background-size:cover;
+	 background-color: #394A5F;
+     color: #FFFFFF;
+     padding: 300px 0 40px;
+    margin-bottom: 0;
+		}
+.contactli {margin-top: 10px;}
+
+
+/*About*/
+.About{background-color:rgb(134,176,74);
+	   padding:20px 10% 10% 20px;}
+.containerabout {bottom-margin:300px;}
+.img-circle {border-style:solid;
+			     border-width:5px;
+			     border-color:black;}
+.img-realestate{size:30px 20px 30px 20px;}
+h1 {font-family:'Arial';}
+h2 {font-family:'Arial';
+	font-weight:bolder;}
+
+
+.Favorites{background-color:none;
+	   background-size:auto;
+	   padding:20px 10% 10% 20px;}
+
+.Interests{background-color:none;
+	   background-size:auto;
+	   padding:20px 10% 10% 20px;}
+
+.Skills{background-color:rgb(242,242,242);
+	   background-size:auto;
+	   padding:20px 10% 10% 20px;}
+
+.Contact{background-color:rgb(175,171,171);
+	   background-size:auto;
+	   padding:20px 10% 10% 20px;}
+
+
+
+
+.fa {color:rgb(134,176,74);}
+.fafa-star{color:black;}
+.section{font-family:'Noto Sans KR', sans-serif;
+		 padding:30px 30px 50px 30px;
+		 text-transform:uppercase;
+		text-align:center;}
+.img-rounded1{
+    height:60px;
+    width:60px;
+    
+}
+.showpage{margin-top:100px;
+
+	
+}

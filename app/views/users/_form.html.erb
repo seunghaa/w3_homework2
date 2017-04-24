@@ -1,0 +1,16 @@
+<div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <p>질문을 작성해주세요</p>
+      </div>
+
+<%=form_for @user do |f|%>
+<p>이름:  <%=f.text_field :name%></p>
+<p>phone: <%=f.text_field :phone%></p>
+<p>email:  <%=f.text_field :email%></p>
+<p>내용</p>
+<p><%= f.text_area :content, size: "60x12" %></p>
+<%= f.submit "질문올리기" %>
+<%end%>
+</div>

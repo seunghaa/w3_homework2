@@ -1,0 +1,35 @@
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="homepage">홈으로가기</a>
+        </div>
+      </div>
+    </nav> 
+    
+<div class="jumbotron">
+    <center>
+        <h1 class="questiontitle">궁금한 점을 질문해주세요</h1>
+        <p class="questionsub"><%=link_to "새로 질문하기",new_user_path%></p>
+    </center>
+      </div>
+      
+
+      <div class="newpost">
+    <% @users.each do |user|%>
+    <p><%=link_to user.name, user%></p>
+    <p><%=user.phone%></p>
+    <p><%=user.email%></p>
+    <p><%=user.content%></p>
+    <%end%>
+      </div>
+
+    </div> <!-- /container -->
+    
+
+
